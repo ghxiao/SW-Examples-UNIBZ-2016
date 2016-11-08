@@ -1,0 +1,6 @@
+
+<http://example.org/john> <http://xmlns.com/foaf/0.1/name> "John" ;
+	<http://xmlns.com/foaf/0.1/age> "42"^^<http://www.w3.org/2001/XMLSchema#int> ;
+	<http://xmlns.com/foaf/0.1/mbox> "john@example.org" .
+
+<http://example.org/graph1> a <http://example.org/Graph> .

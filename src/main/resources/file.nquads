@@ -1,0 +1,4 @@
+<http://example.org/john> <http://xmlns.com/foaf/0.1/name> "John" <http://example.org/graph1> .
+<http://example.org/john> <http://xmlns.com/foaf/0.1/age> "42"^^<http://www.w3.org/2001/XMLSchema#int> <http://example.org/graph1> .
+<http://example.org/john> <http://xmlns.com/foaf/0.1/mbox> "john@example.org" <http://example.org/graph1> .
+<http://example.org/graph1> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://example.org/Graph> .
