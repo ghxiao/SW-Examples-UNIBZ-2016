@@ -26,5 +26,11 @@ public class ModelAPIDemo {
         model.add(bob, name, bobsName);
 
         model.forEach(System.out::println);
+
+//        for(Statement triple: model){
+//            System.out.println(triple);
+//        }
+
+
     }
 }
