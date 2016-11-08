@@ -19,6 +19,9 @@ import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 public class RioReaderExample {
     public static void main(String[] args) throws IOException {
 
@@ -32,6 +35,10 @@ public class RioReaderExample {
 
         Model results = Rio.parse(inputStream, file.toURL().toString(), RDFFormat.RDFXML);
         results.forEach(System.out::println);
+
+        Logger logger = LoggerFactory.getLogger(RioReaderExample.class);
+        logger.debug("File loaded successfully!");
+        logger.info("File name " + file.getAbsolutePath());
 
 //        Model model = new LinkedHashModel();
 //        rdfParser.setRDFHandler(new StatementCollector(model));
