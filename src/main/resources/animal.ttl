@@ -1,6 +1,6 @@
 @prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#> .
-@prefix ex:  <http://www.semantic-web-grundlagen.de/Beispiele#> .
+@prefix ex:  <http://ex.org/> .
 
 ex:Animalia  rdf:type  rdfs:Class .
 
@@ -15,3 +15,5 @@ ex:Primates  rdf:type    rdfs:Class ;
 
 ex:Hominidae  rdf:type   rdfs:Class ;
         rdfs:subClassOf  ex:Primates .
+
+ex:xiao rdf:type ex:Hominidae .
